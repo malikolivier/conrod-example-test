@@ -1,0 +1,13 @@
+[package]
+name = "conrod-test"
+version = "0.1.0"
+authors = ["Malik Olivier Boussejra <malik@boussejra.com>"]
+
+[dependencies]
+find_folder = "*"
+image = "*"
+rand = "*"
+
+[dependencies.conrod]
+git = "https://github.com/PistonDevelopers/conrod.git"
+features = ["glium", "winit"]
